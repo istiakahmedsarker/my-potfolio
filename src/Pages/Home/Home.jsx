@@ -37,7 +37,7 @@ const Navbar = ({ homeRef, aboutRef, projectsRef, contactRef }) => {
                         </li>
                     </ul>
                 </div>
-                <Link to='/' style={{ cursor: 'pointer' }} onClick={() => scrollHandler(homeRef)} className='text-5xl text-gray-300 transition-colors duration-300 flex justify-center'>
+                <Link to='/' style={{ cursor: 'pointer' }} onClick={() => scrollHandler(homeRef)} className='text-5xl text-gray-300 transition-colors duration-300  lg:mx-0'>
                     Portfolio
                 </Link>
             </div>
@@ -74,7 +74,7 @@ const Home = () => {
             <div className="">
                 <Navbar homeRef={homeRef} aboutRef={aboutRef} projectsRef={projectsRef} contactRef={contactRef} />
             </div>
-            <div ref={homeRef} className="md:pb-[220px] pt-[300px]">
+            <div ref={homeRef} className="md:pb-[150px] pt-[200px] sm:pt-[250px] lg:pt-[300px]">
                 <Banner />
             </div>
             <div ref={aboutRef} className="py-28">
