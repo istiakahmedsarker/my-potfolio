@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <div className="">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-5xl font-bold mb-4 mx-4">Welcome to My Portfolio</h2>
+        <h2 className="text-5xl font-bold mb-4 mx-4 md:mx-0">Welcome to My Portfolio</h2>
         <p className="text-xl mb-4 md:mx-auto mx-4">Hi!, I'm Istiak. A passionate Front-end React web developer.</p>
         <div className="text-3xl flex flex-col md:flex-row gap-4 items-center my-8">
           <a
