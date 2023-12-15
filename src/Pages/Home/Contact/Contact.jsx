@@ -7,7 +7,7 @@ const Contact = () => {
   
 
   return (
-    <div className="bg-[#022835] text-white p-8 py-28">
+    <div className="bg-[#022835] text-white p-8">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-center">Contact</h2>
         <form onSubmit={handleSubmit}>

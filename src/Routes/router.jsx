@@ -9,25 +9,25 @@ import Contact from '../Pages/Home/Contact/Contact';
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Main />,
-        children: [
-            {
-                path: "/",
-                element: <Home />,
-            },
-            {
-                path: "about",
-                element: <About />,
-            },
-            {
-                path: "projects",
-                element: <Projects />,
-            },
-            {
-                path: "contact",
-                element: <Contact />,
-            },
-        ],
+        element: <Home />,
+        // children: [
+        //     {
+        //         path: "/",
+        //         element: <Home />,
+        //     },
+        //     {
+        //         path: "about",
+        //         element: <About />,
+        //     },
+        //     {
+        //         path: "projects",
+        //         element: <Projects />,
+        //     },
+        //     {
+        //         path: "contact",
+        //         element: <Contact />,
+        //     },
+        // ],
     },
 ]);
 

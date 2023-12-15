@@ -4,14 +4,14 @@ import { SiFirebase, SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si'
 
 const About = () => {
     return (
-        <div className="bg-[#022835] text-gray-300 p-8 py-28">
+        <div className="bg-[#022835] text-gray-300 p-8 ">
             <div className="max-w-4xl mx-auto">
                 <h2 className="text-4xl font-bold mb-4 text-center">About Me</h2>
                 <p className="text-lg mb-8 text-center">
                     Hi, I'm Istiak, a passionate web developer with a strong foundation in front-end technologies. I enjoy creating responsive and user-friendly websites that provide a seamless and enjoyable experience.
                 </p>
                 <p className="text-lg mb-4 text-center"><span className='text-xl font-bold' >Education:</span> I'm a student currently studying in Natore Govt Boys' High School.</p>
-                <p className="text-lg mb-4 text-center"><span className='text-xl font-bold' >Experience:</span> I don't havemuch experiences. I have just completed the Programming Hero coure</p>
+                <p className="text-lg mb-4 text-center"><span className='text-xl font-bold' >Experience:</span> I don't have much experience. I have just completed the Programming Hero coure</p>
 
                 {/* Skills Section */}
                 <section className="mb-8">
@@ -37,12 +37,6 @@ const About = () => {
                             </li>
                         ))}
                     </ul>
-                </section>
-
-                {/* Experiences Section */}
-                <section className="mb-8">
-                    <h3 className="text-2xl font-bold mb-4 text-center">Experiences</h3>
-                    {/* Add your experiences content here */}
                 </section>
             </div>
         </div>
